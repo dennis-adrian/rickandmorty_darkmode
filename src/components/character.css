@@ -1,0 +1,30 @@
+.characters__grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1024px;
+  width: auto;
+}
+
+.character__card {
+  box-shadow: 0px 0px 10px 5px #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 16px;
+  margin: 20px;
+  text-align: center;
+}
+
+.character > img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.character__info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  justify-content: center;
+  max-width: 300px;
+}
